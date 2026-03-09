@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'capteur_temperature = tp_communication.capteur_temperature:main',
             'capteur_humidite = tp_communication.capteur_humidite:main',
+            'capteur_pression = tp_communication.capteur_pression:main',
             'afficheur_temperature = tp_communication.afficheur_temperature:main'
             
         ],
