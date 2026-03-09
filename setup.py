@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'capteur_temperature = tp_communication.capteur_temperature:main'
         ],
     },
 )
